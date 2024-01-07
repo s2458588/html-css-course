@@ -1,35 +1,93 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(19, 128, 145);
+}
+
 h1 {
   /*Selects all <h1>*/
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 
 h3 {
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
   line-height: 1.5; /*1.5 times the font size*/
 }
 
 li {
   font-size: 20px;
-  font-family: sans-serif;
+}
+
+/* Descendant selector, will select all <p> in <footer>
+footer p {
+  font-size: 16px;
+}
+
+Nested descendant selector
+article header p {
+  font-style: italic;
+}
+*/
+
+/*Selecting by id as used in the html file*/
+#author {
+  font-style: italic;
+  font-size: 18px;
+  border-left: 3px solid darkolivegreen;
+  border-right: 3px solid darkolivegreen;
+  text-align: center;
+}
+
+#copyright {
+  font-size: 18px;
+}
+
+/*Selecting by class as used in the html file*/
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid darkslategrey;
+  border-bottom: 5px solid darkslategray;
+}
+
+body {
+  background-color: lightsteelblue;
 }

@@ -22,13 +22,13 @@
     <h5>The Basic Language of the Web: HTML</h5>
     <h6>The Basic Language of the Web: HTML</h6>
     -->
-    <header>
+    <header class="main-header">
       <!--
         Inline CSS:
         <h1 style="color: blue">📘 The Code Magazine</h1>
       -->
       <h1>📘 The Code Magazine</h1>
-
+      <p>Test paragraph</p>
       <nav>
         <a href="blog.html">Blog</a>
         <a href="#">Challenges</a>
@@ -40,13 +40,16 @@
     <article>
       <header>
         <h2>The Basic Language of the Web: HTML</h2>
-        <img
-          src="img/laura-jones.jpg"
-          alt="Picture of the author Laura Jones"
-          width="50"
-          height="50"
-        />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+        <p id="author">
+          <img
+            src="img/laura-jones.jpg"
+            alt="Picture of the author Laura Jones"
+            width="50"
+            height="50"
+          />
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -118,7 +121,7 @@
 
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <p>
             <img
@@ -129,7 +132,7 @@
             />
             <a href="#">How to Learn Web Development</a>
           </p>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <p>
@@ -141,7 +144,7 @@
             />
             <a href="#">The Unknown Powers of CSS</a>
           </p>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <p>
@@ -153,11 +156,13 @@
             />
             <a href="#">Why JavaScript is Awesome</a>
           </p>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 </html>
