@@ -4,15 +4,18 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
@@ -22,7 +25,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: auto; */
 }
 
 nav {
@@ -45,6 +48,7 @@ aside {
   width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -124,7 +128,6 @@ article header p {
   font-size: 18px;
   font-weight: bold;
 }
-
 .related {
   list-style: none;
 }
@@ -154,6 +157,18 @@ article p:first-child {
 /* Styling a hyperlink , priority conflicts .>:>#>n
 */
 
+nav a:link {
+  /* background-color: blanchedalmond; */
+  margin-right: 30px;
+  margin-top: 10px;
+
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 a:link {
   color: #1098ad;
   text-decoration: none;
@@ -176,6 +191,19 @@ a:active {
 .post-img {
   width: 100%; /* percent of container size! */
   height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  /* bottom: 50px;
+  left: 50px; */
+
+  bottom: 50px;
+  right: 50px;
 }
 
 /* nav a:link {
