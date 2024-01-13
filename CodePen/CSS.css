@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  letter-spacing: -1px;
+  /*font: ;*/
+  font-weight: 500;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #bfbfbf;
+  padding: 20px;
+  margin: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+}
+
+.pricefooter {
+  font-size: 14px;
+  color: #6f6f6f;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+a:link {
+  color: #000;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  background: #000;
+  border-top: 3px solid black;
+  width: 825px;
+  margin: 0;
+  padding: 10px;
+}
+
+button:hover {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 24px;
+  background: #fff;
+  border-top: 3px solid black;
+  cursor: pointer;
+}
+
+.details-list {
+  list-style: square;
+  margin: 5px;
+}
+
+li {
+  margin: 15px;
+}
+.container {
+  width: 825px;
+  margin: 0 auto;
+}
+
+.shopitem {
+  border: 3px solid black;
+  width: 825px;
+  margin: 50px auto;
+}

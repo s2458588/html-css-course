@@ -10,6 +10,11 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /*   padding: 20px;
@@ -17,6 +22,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -36,6 +42,7 @@ aside {
   border-top: 5px solid darkslategrey;
   border-bottom: 5px solid darkslategray;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -145,6 +152,7 @@ article p:first-child {
 }
 
 /* Styling a hyperlink , priority conflicts .>:>#>n
+*/
 
 a:link {
   color: #1098ad;
@@ -164,7 +172,11 @@ a:active {
   background-color: black;
   font-style: italic;
 }
- */
+
+.post-img {
+  width: 100%; /* percent of container size! */
+  height: auto;
+}
 
 /* nav a:link {
   font-size: 18px;
