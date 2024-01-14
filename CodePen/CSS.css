@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: sans-serif;
   letter-spacing: -1px;
@@ -20,6 +21,7 @@ h1 {
 h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .price {
@@ -39,6 +41,13 @@ p {
 }
 a:link {
   color: #000;
+}
+
+.more-info:link,
+.more-info:visited {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -83,7 +92,52 @@ li {
 }
 
 .shopitem {
-  border: 3px solid black;
+  border: 3px solid #000;
   width: 825px;
   margin: 50px auto;
+  position: relative;
+}
+.shopitem::before {
+  position: absolute;
+  content: "SALE";
+  background-color: #ff0000;
+  left: -50px;
+  top: -15px;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.colors {
+}
+.colors:last-child {
+  margin-right: 0;
+}
+
+.color {
+  height: 22px;
+  width: 22px;
+  background-color: #000;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-black {
+  background-color: black;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
 }

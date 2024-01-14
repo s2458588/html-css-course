@@ -219,7 +219,7 @@ h1::first-letter {
 }
 
 /* '+' selects the next sibling*/
-/* selects the h3 + p::first-line {
+/* h3 + p::first-line {
   color: rebeccapurple;
 } */
 
