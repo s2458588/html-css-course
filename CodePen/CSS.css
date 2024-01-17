@@ -141,3 +141,29 @@ li {
 .color-brown {
   background-color: brown;
 }
+
+.product-image {
+  float: left;
+}
+
+.product-mid {
+  float: left;
+  width: 225px;
+  margin: 0 40px;
+  margin-top: 30px;
+}
+
+.product-right {
+  float: right;
+  width: 225px;
+}
+
+.shipping-tag {
+  float: right;
+  display: inline-block;
+}
+
+.price {
+  display: inline-block;
+  margin-bottom: 25px;
+}
