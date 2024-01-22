@@ -23,7 +23,6 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -161,7 +160,7 @@ li:nth-child(even) {
 
 /* Misconception: this won't work! */
 article p:first-child {
-  color: red;
+  /* color: red; */
 }
 
 /* Styling links */
