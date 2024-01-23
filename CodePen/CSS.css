@@ -21,7 +21,6 @@ h1 {
 h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 
 .price {
@@ -110,6 +109,9 @@ li {
 }
 
 .colors {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
 .colors:last-child {
   margin-right: 0;
@@ -119,8 +121,6 @@ li {
   height: 22px;
   width: 22px;
   background-color: #000;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .color-black {
@@ -143,27 +143,30 @@ li {
 }
 
 .product-image {
-  float: left;
 }
 
 .product-mid {
-  float: left;
-  width: 225px;
-  margin: 0 40px;
-  margin-top: 30px;
+  flex: 1;
+}
+
+.product-midhead {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 
 .product-right {
-  float: right;
-  width: 225px;
-}
-
-.shipping-tag {
-  float: right;
-  display: inline-block;
+  margin-top: 25px;
+  flex: 1;
 }
 
 .price {
-  display: inline-block;
   margin-bottom: 25px;
+}
+
+.product-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
 }
